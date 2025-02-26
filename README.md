@@ -7,6 +7,11 @@ This project proposes a novel method for acquiring intraday stock data from the 
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
 
+This repository contains the implementation code for the paper:
+> A. Chennupati, B. Prahas, B. A. Ghali and M. Venugopalan, "Integrative Day Trading Stock Trend Prediction using Web Scraping and Sentiment Analysis," 2024 IEEE 9th International Conference for Convergence in Technology (I2CT), Pune, India, 2024, pp. 1-7, doi: 10.1109/I2CT61223.2024.10543704.
+
+
+
 ## Features
 
 - **Intraday Stock Data Acquisition**: Fetches real-time stock data from the NSE using web-scraping.
@@ -38,7 +43,7 @@ nltk.download('vader_lexicon')
 1. **Clone the repository**:
 
    ```bash
-   git clone (https://github.com/Aadigha-git/Stock_Prediction_using_XGBoost_and_Sentiment_Analysis_using_Spark.git)
+   git clone https://github.com/Aadigha-git/Stock_Prediction_using_XGBoost_and_Sentiment_Analysis_using_Spark.git
    ```
 
 2. **Run the Streamlit app**:
