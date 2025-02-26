@@ -39,7 +39,6 @@ nltk.download('vader_lexicon')
 
    ```bash
    git clone https://github.com/yourusername/stock-trend-prediction.git
-   cd stock-trend-prediction
    ```
 
 2. **Run the Streamlit app**:
