@@ -52,13 +52,6 @@ nltk.download('vader_lexicon')
 
 4. **View the stock trend predictions** and sentiment analysis results in the interactive web interface.
 
-## Project Structure
-
-- `app.py`: The main script containing the Streamlit app, stock trend prediction, and sentiment analysis logic.
-- `README.md`: This file, providing an overview of the project.
-- `output.csv`: A CSV file containing news article titles and URLs.
-- `output_with_paragraphs.csv`: A CSV file containing extracted content from news articles.
-- `dayta.csv`: A CSV file containing historical stock price data.
 
 ## Key Components
 
