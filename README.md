@@ -1,6 +1,4 @@
 # Stock-prediction-model-using-XGBoost-algorithm-and-sentiment-analysis-using-Spark.
-Here’s the updated `README.md` file incorporating the provided research description:
-
 ---
 
 # Stock Trend Prediction and Sentiment Analysis
