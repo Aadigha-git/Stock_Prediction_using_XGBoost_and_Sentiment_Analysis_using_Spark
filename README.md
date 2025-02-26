@@ -38,7 +38,7 @@ nltk.download('vader_lexicon')
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/yourusername/stock-trend-prediction.git](https://github.com/Aadigha-git/Stock_Prediction_using_XGBoost_and_Sentiment_Analysis_using_Spark.git)
+   [git clone (https://github.com/Aadigha-git/Stock_Prediction_using_XGBoost_and_Sentiment_Analysis_using_Spark.git)]
    ```
 
 2. **Run the Streamlit app**:
