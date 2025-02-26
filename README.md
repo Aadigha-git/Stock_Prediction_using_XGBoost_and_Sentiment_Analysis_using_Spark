@@ -5,6 +5,8 @@
 
 This project proposes a novel method for acquiring intraday stock data from the National Stock Exchange (NSE) and sentiment-laden news articles using web-scraping technology. It leverages Spark’s distributed computing framework for sentiment analysis and XGBoost for stock trend prediction. The integration of these components provides actionable stock recommendations (buy/sell) to investors.
 
+[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
+
 ## Features
 
 - **Intraday Stock Data Acquisition**: Fetches real-time stock data from the NSE using web-scraping.
