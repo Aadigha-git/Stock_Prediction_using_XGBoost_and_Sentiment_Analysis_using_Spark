@@ -6,7 +6,7 @@ This project proposes a novel method for acquiring intraday stock data from the 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
 
 This repository contains the implementation code for the paper:
-> A. Chennupati, B. Prahas, B. A. Ghali and M. Venugopalan, "Integrative Day Trading Stock Trend Prediction using Web Scraping and Sentiment Analysis," 2024 IEEE 9th International Conference for Convergence in Technology (I2CT), Pune, India, 2024, pp. 1-7, doi: 10.1109/I2CT61223.2024.10543704.
+> https://ieeexplore.ieee.org/abstract/document/10543704; A. Chennupati, B. Prahas, B. A. Ghali and M. Venugopalan, "Integrative Day Trading Stock Trend Prediction using Web Scraping and Sentiment Analysis," 2024 IEEE 9th International Conference for Convergence in Technology (I2CT), Pune, India, 2024, pp. 1-7, doi: 10.1109/I2CT61223.2024.10543704.
 
 
 
@@ -18,8 +18,21 @@ This repository contains the implementation code for the paper:
 - **Cross-Validation**: Evaluates model performance using time series cross-validation.
 - **Stock Recommendations**: Combines sentiment scores and XGBoost predictions to provide buy/sell recommendations.
 - **Interactive Web Interface**: Built with Streamlit for user-friendly interaction and visualization.
+ <p align="center">
+  <img src="https://github.com/user-attachments/assets/ff8c2280-52b0-4233-9cfe-6fa22263ba1d" alt="App Screenshot" width="500">
+</p>
 
-![image](https://github.com/user-attachments/assets/ff8c2280-52b0-4233-9cfe-6fa22263ba1d)
+## Tech Stack
+
+- **Python** – Used for web scraping, data preprocessing, and implementing the machine learning model.
+- **BeautifulSoup** – Extracts stock data and news articles from NSE and CNBCtv18 websites.
+- **Apache Spark** – Performs distributed sentiment analysis on news data for scalability and efficiency.
+- **XGBoost** – Implements the stock price prediction model with time-series data and lag features.
+- **Pandas** – Manages and processes stock data stored in CSV format.
+- **NLTK** – Conducts sentiment analysis on extracted news data.
+- **SQL** – Stores and retrieves stock data for analysis.
+- **Matplotlib & Seaborn** – Visualizes stock trends and prediction results.
+- **Scikit-learn** – Splits data, applies time-series cross-validation, and evaluates model performance.
 
 ## Requirements
 
@@ -63,9 +76,13 @@ nltk.download('vader_lexicon')
 - **Feature Engineering**: Creates time-based features and lag features for the prediction model.
 - **Model Training**: Uses XGBoost regression to predict future stock prices.
 - **Cross-Validation**: Performs time series cross-validation to evaluate model performance.
-  ![image](https://github.com/user-attachments/assets/3d619a89-df0f-4a57-bbbf-e7af7d8b679a)
+   <p align="center">
+  <img src="https://github.com/user-attachments/assets/3d619a89-df0f-4a57-bbbf-e7af7d8b679a" alt="App Screenshot" width="400">
+</p>
 - **Visualization**: Plots training/test splits, cross-validation results, and future predictions.
- ![image](https://github.com/user-attachments/assets/94cfc6a3-208b-4042-8cef-fa93f40aeb63)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/94cfc6a3-208b-4042-8cef-fa93f40aeb63" alt="App Screenshot" width="400">
+</p>
 
 
 ### Sentiment Analysis
@@ -80,8 +97,9 @@ nltk.download('vader_lexicon')
 This research proposes a new method of acquiring intraday stock data from the National Stock Exchange and sentiment-laden news articles via web-scraping technology. Spark’s distributed computing framework is employed to perform sentiment analysis and quantify sentiment scores for the chosen stock over the past month. Concurrently, the XGBoost algorithm processes the historical stock data to predict future values along with the cross-validation process. By integrating XGBoost predictions and sentiment scores, this model offers stock recommendations to the user to either buy or sell a certain stock.
 
 The proposed model's performance is evaluated for future value predictions based on the average RMSE score, reported as **1.2479**. This systematic approach combines financial prediction, natural language processing, and machine learning to provide actionable recommendations for investors.
-
-![image](https://github.com/user-attachments/assets/1bf61d74-a492-4007-8de1-53c7f476e0d9)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1bf61d74-a492-4007-8de1-53c7f476e0d9" alt="App Screenshot" width="400">
+</p>
 
 
 ## Example
